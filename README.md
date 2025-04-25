@@ -8,6 +8,10 @@ This repo is an attempt to replicate the paper [Vision Transformers Need Registe
 of the most extreme outliers. 
 2. Try to finetune ViTs with registers instead of training from scratch to replicate the performance enhancement by registers.
 
+# Requirements
+
+This requires PyTorch to run. A GPU with cuda is required. Please check the code for library dependencies.
+
 # Prepare ImageNet Dataset
 
 We only used ImageNet's validation dataset as our whole dataset due to limit of time and computational resource.
